@@ -5,4 +5,3 @@ configure({ adapter: new Adapter() });
 export { shallow, mount, render };
 export default Enzyme;
 
- //"mocha --require @babel/register \"src/**/*.test.js\"",
