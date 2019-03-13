@@ -34,10 +34,10 @@ class Home extends Component {
                     <Form />  
                 }
                 <div className="row pt-5">
-                    <div className="col-12 col-lg-8 offset-lg-2">
+                    <div className="col-12 col-lg-8 offset-lg-2 article-list">
                         {articles.map((article) => {
                             return (
-                                <div className="card my-3">
+                                <div className="card my-3 article">
                                     <div className="card-header">
                                         <div className="float-right">
                                             <button 
